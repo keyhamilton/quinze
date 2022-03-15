@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+
+main {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    
+}
+
+.direito {
+    width: 25rem;
+    height: 35rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    border: 0.1rem solid gray;
+}
+
+.logo {
+    font-family: 'Quintessential', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 25rem;
+    height: auto;
+    
+}
+
+.camp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camp form input {
+    width: 20rem;
+    height: 2rem;
+}
+.campo {
+    width: 20rem;
+}
+
+.botao-entrar {
+    border: none;
+    color: #ffffff;
+    background-color: midnightblue;
+    text-align: center;
+    width: 20rem;
+    height: 2rem;
+    display: inline-block;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 6rem;
+    
+}
+
+footer > nav, li, a {
+    font-size: 1rem;
+    font-weight: normal;
+    color: steelblue;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

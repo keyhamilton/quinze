@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+body {
+    font-family: "Crimisom text",
+                "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1 {
+    background-color : #851944;
+    color: #FFFFFF; 
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", 
+                 "Arial", sans-serif; }
+
+p { text-align: justify; 
+    font-family: "Times New Roman", serif;
+}
+
+blockquote {
+    background-color: lightblue;
+}
+
+aside > *, nav h1, ul li a {
+    color: white;
+    text-align: left;
+    background-color: darkmagenta;
+}
+
+footer {
+    text-align: center;
+}
+
